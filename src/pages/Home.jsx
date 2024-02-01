@@ -10,14 +10,14 @@ const Home = () => {
 
   return (
     <div className='homepage'>
-      <h1>Find your favourite shows to watch</h1>
+      <h1 className='h__title'>Find your favourite shows to watch</h1>
       <SearchBar />
       {loading
         ? (
           <h2>Waiting</h2>
           )
         : (
-          <div>
+          <div className='home__list'>
             {shows.map((item) => (
               <ListItem
                 key={item.show.id}
@@ -28,7 +28,7 @@ const Home = () => {
                 name={item.show.name}
                 rating={item.show.rating.average
                   ? item.show.rating.average
-                  : ''}
+                  : 'Not Rated'}
               />
             ))}
           </div>

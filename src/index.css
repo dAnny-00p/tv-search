@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
+/*
 body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+    background-color: #edede9;
+}*/
 
 .container {
-    max-width: 1170px;
+    max-width: 100%;
+    text-align: center;
     margin: auto;
 }
