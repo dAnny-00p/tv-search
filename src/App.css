@@ -50,3 +50,18 @@
     background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
     background-size: 10px 10px;
 }
+
+/*showList ListItem*/
+.listitem {
+    text-decoration: none;
+    background-color: #ff006e;
+    margin: 1rem 0;
+    cursor: pointer;
+    color: #282828;
+    display: inline-block;
+}
+
+img {
+    width: 180px;
+    height: 210px;
+}
