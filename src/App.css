@@ -1,0 +1,52 @@
+/*pagina de error*/
+.errorPage {
+    margin: auto;
+    color: #ff006e;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.fa-regular {
+    padding: 15px;
+    font-size: 500%;
+}
+/*Barra de navegacion/header*/
+.navbar {
+    padding: 14px 16px;
+    background: linear-gradient(#023047, #3a86ff)
+}
+
+.navbar__brand a {
+    color: #282828;
+    background-color: #ffbe0b;
+    border-radius: 10px;
+    padding: 3px 6px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar__brand a:hover {
+    color: #e6e6e6;
+}
+
+.navbar__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.d-flex {
+    width: 30%;
+    height: 5%;
+    margin: auto;
+    padding: 15px;
+}
+
+/*pagina principal*/
+.homepage {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+}
