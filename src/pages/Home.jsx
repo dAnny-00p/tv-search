@@ -1,6 +1,6 @@
 // import SearchBar from "../components/SearchBar";
 import { useContext } from 'react'
-import ShowsContext from '../context/ShowsContext'
+import ShowsContext from '../context/showsContext'
 import SearchBar from '../components/SearchBar'
 import ListItem from '../components/ListItem'
 
